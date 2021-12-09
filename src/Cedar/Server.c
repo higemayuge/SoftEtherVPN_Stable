@@ -10901,6 +10901,7 @@ bool SiCheckCurrentRegion(CEDAR *c, char *r)
 // 
 bool SiIsEnterpriseFunctionsRestrictedOnOpenSource(CEDAR *c)
 {
+	/*
 	char region[128];
 	bool ret = false;
 	// Validate arguments
@@ -10918,6 +10919,8 @@ bool SiIsEnterpriseFunctionsRestrictedOnOpenSource(CEDAR *c)
 	}
 
 	return ret;
+	*/
+	return false;
 }
 
 // Update the current region
